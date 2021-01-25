@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Kufam', cursive;
+    background-image: url("https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.welcomeText {
+    width: 400px;
+}
+
+.welcomeForm input,
+.welcomeForm button {
+    display: block;
+    width: 100%;
+}
+
+.welcomeForm input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Kufam', cursive;
+
+}
+
+.welcomeForm button {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Kufam', cursive;;
+    padding: 20px 0;
+    border: none;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 100px;
+    transition: 0.3s all;
+}
+
+.welcomeForm button:hover {
+    transform: translatey(-5px);
+    background-color: #9ca194;
+    cursor: pointer;
+}
+
+.welcomeForm input:focus,
+.welcomeForm button:focus {
+    outline: none;
+}

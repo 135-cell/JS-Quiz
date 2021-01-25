@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Kufam', cursive;
+    background-image: url("https://wallpapercave.com/wp/wp3913855.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.userName ,
+.userPoints ,
+.userTime {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
